@@ -1,0 +1,37 @@
+{
+  "name": "zenith-robotics-ai",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --debug-prerender",
+    "start": "next start",
+    "gen:unsplash": "tsx scripts/resolve-unsplash.ts",
+    "gen:images": "tsx scripts/generate-images.ts",
+    "gen:videos": "tsx scripts/generate-videos.ts",
+    "gen:frames": "bash scripts/extract-frames.sh raw/scene-1.mp4 24 1920",
+    "gen:upload-frames": "tsx scripts/upload-frames.ts"
+  },
+  "dependencies": {
+    "next": "^16.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "framer-motion": "^12.38.0",
+    "gsap": "^3.12.5",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.460.0",
+    "@google/genai": "^1.51.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "typescript": "^5.5.0",
+    "tsx": "^4.7.0",
+    "babel-plugin-transform-react-jsx-location": "^0.6.7",
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}

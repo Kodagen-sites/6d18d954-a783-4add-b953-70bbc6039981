@@ -1,0 +1,15 @@
+COMPOSITION (mandatory, override AI defaults):
+Subject offset to RIGHT TWO-THIRDS of frame, mid-vertical position. Left third is clear architectural negative space — soft warm rose haze through a tall window aperture. Subject (industrial robotic arm) sits in the right two-thirds with brushed-graphite chassis visible. Eye leads from lower-left atmospheric space toward subject. NOT CENTERED. Rule of thirds applies (HO2 left-split overlay constraint).
+
+SCENE:
+Cinematic wide establishing shot of a single industrial robotic arm in a calm modern facility. The arm — sleek brushed-graphite finish, articulated joints, holding a precision end-effector tool — rests in idle pose on a polished concrete floor that catches a soft warm reflection. Background: an unbroken pale plaster wall (warm cream #FAF4F2 tone) with a tall window aperture on the left admitting golden afternoon light. A single soft rose-pink architectural rim light grazes the arm from the upper-right (#F2D0CC undertone). Deep graphite shadows (#322425) ground the arm. Air is still; faint dust particles drift in the rim-light beam.
+
+PALETTE: warm cream #FAF4F2 base, soft rose #F2D0CC accent, muted graphite #857173 mid-tones, deep graphite #322425 contrast. NO neon. NO cool blues. NO digital tech-cliche.
+
+LIGHTING: studio-controlled, warm afternoon ambient + single soft rim. Photoreal. No HDR.
+
+DETAILS: tactile brushed metal surface on the arm; concrete with faint warm reflection; clean editorial restraint — premium, not futuristic.
+
+FRAME: 16:9. No text. No watermark. No on-screen interface elements. Photorealistic. Sharp focus on arm joints.
+
+REINFORCED COMPOSITION: subject in right two-thirds, negative space dominates left third. Asymmetric. Cinematic, not symmetric.

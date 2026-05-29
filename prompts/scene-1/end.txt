@@ -1,0 +1,13 @@
+COMPOSITION (mandatory, override AI defaults):
+Same composition as scene 1 — subject still offset to RIGHT TWO-THIRDS of frame, left third still clear negative space. Camera has pushed in ~6 feet closer. Composition reads as a slow forward dolly to macro detail.
+
+SCENE:
+Macro close-up of the SAME industrial robotic arm — now we see the precision end-effector tool engaging a work surface with sub-millimetre accuracy. Brushed-graphite housing fills the right two-thirds of frame. Visible: the articulated wrist joint, a hairline articulation gap, a single illuminated status LED in muted rose. The work surface is the same polished concrete from scene 1, now warmer in the foreground. Behind the arm, the pale plaster wall is now slightly defocused (shallow DoF earned by the closer perspective). The same soft rose-pink rim light from the upper-right intensifies on the brushed metal surface, picking up micro-grain detail. Faint atmospheric dust particles drift in the rim-light beam, more visible at this distance.
+
+PALETTE: identical to scene 1 — warm cream #FAF4F2 base (now backgrounded, softly defocused), soft rose #F2D0CC accent (now stronger on the arm's surface highlights), muted graphite #857173 mid-tones, deep graphite #322425 contrast.
+
+LIGHTING: same studio-controlled warm afternoon ambient + single soft rim. Same color temperature and exposure as scene 1. Photoreal continuity is essential.
+
+FRAME: 16:9. No text. No watermark. No on-screen interface elements. Photorealistic. Sharp focus on the end-effector and articulation detail.
+
+REINFORCED COMPOSITION: subject in right two-thirds, negative space dominates left third (now softer). Asymmetric. Cinematic. Same exposure and white balance as scene 1.

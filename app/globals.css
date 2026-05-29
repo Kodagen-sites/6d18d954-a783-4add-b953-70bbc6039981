@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Graphite & Rose palette — locked */
+  --bg: #FAF4F2;
+  --bg-color: #FAF4F2;
+  --bg-surface: #F2D0CC;
+  --bg-elevated: #FFFFFF;
+  --bg-deep: #322425;
+
+  --fg: #322425;
+  --fg-color: #322425;
+  --fg-muted: rgba(50, 36, 37, 0.66);
+  --fg-faint: rgba(50, 36, 37, 0.42);
+  --fg-inverse: #FAF4F2;
+
+  --accent: #857173;
+  --accent-soft: #F2D0CC;
+
+  --rule: rgba(50, 36, 37, 0.10);
+  --rule-strong: rgba(50, 36, 37, 0.18);
+
+  --section-pad: clamp(56px, 7vw, 96px);
+
+  --font-display: var(--font-outfit, system-ui);
+  --font-body: var(--font-figtree, system-ui);
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+  overflow-x: clip;
+}
+
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "cv11";
+}
+
+::selection {
+  background: var(--bg-deep);
+  color: var(--bg);
+}
+
+@layer utilities {
+  .section-pad {
+    padding-block: var(--section-pad);
+  }
+  .container-wide {
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: clamp(20px, 4vw, 48px);
+  }
+  .container-narrow {
+    max-width: 880px;
+    margin-inline: auto;
+    padding-inline: clamp(20px, 4vw, 48px);
+  }
+  .hairline {
+    background: var(--rule);
+    height: 1px;
+    width: 100%;
+  }
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+  .font-mono-eyebrow {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.32em;
+    font-size: 11px;
+    color: var(--accent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Smooth anchor scrolling for landing-mode nav */
+html {
+  scroll-behavior: smooth;
+}

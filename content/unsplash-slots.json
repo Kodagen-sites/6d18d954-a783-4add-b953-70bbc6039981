@@ -1,0 +1,11 @@
+[
+  { "slot": "section-platform", "keyword": "modern robotics laboratory interior", "orientation": "landscape" },
+  { "slot": "section-about", "keyword": "robotics engineering team workspace", "orientation": "landscape" },
+  { "slot": "section-process", "keyword": "robotic arm precision assembly", "orientation": "landscape" },
+  { "slot": "section-cta", "keyword": "warm modern office abstract architecture", "orientation": "landscape" },
+  { "slot": "og-image", "keyword": "industrial robotics autonomous platform", "orientation": "landscape", "w": 1200, "h": 630 },
+  { "slot": "service-orchestration", "keyword": "autonomous robotic fleet warehouse", "orientation": "landscape" },
+  { "slot": "service-vision", "keyword": "computer vision robotic camera sensors", "orientation": "landscape" },
+  { "slot": "service-operations", "keyword": "data center analytics dashboard glow", "orientation": "landscape" },
+  { "slot": "service-deployment", "keyword": "enterprise robotics deployment factory", "orientation": "landscape" }
+]
